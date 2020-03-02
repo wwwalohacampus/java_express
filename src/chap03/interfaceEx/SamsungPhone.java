@@ -1,5 +1,6 @@
 package chap03.interfaceEx;
 
+
 public class SamsungPhone implements PhoneInterface {
 
 	@Override
@@ -16,5 +17,6 @@ public class SamsungPhone implements PhoneInterface {
 	public void printLogo() {
 		System.out.println("*** Samsung ***");
 	}	
+
 	
 }

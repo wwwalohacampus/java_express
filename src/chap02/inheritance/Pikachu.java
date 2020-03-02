@@ -1,30 +1,30 @@
 package chap02.inheritance;
 
-public class Pickachu {
+public class Pikachu {
 	// 클래스 : 변수 + 메소드
 	// 멤버	: (변수), (메소드)
 	
 	// 변수
-	int energy;
-	String type;
+	public  int energy;
+	public String type;
 	String item = "";
 	
 	
 	// 기본 생성자
-	public Pickachu() {
+	public Pikachu() {
 		this(100, "thunder");
 //		this.energy = 100;
 //		this.type = "fire";
 	}
 
 	// 메소드(생성자) 오버로딩
-	public Pickachu(int energy, String type) {
+	public Pikachu(int energy, String type) {
 		this.energy = energy;
 		this.type = type;
 	}
 
 	// 메소드(생성자) 오버로딩
-	public Pickachu(int energy, String type, String item) {
+	public Pikachu(int energy, String type, String item) {
 		this.energy = energy;
 		this.type = type;
 		this.item = item;
@@ -38,6 +38,12 @@ public class Pickachu {
 	public String bAttack() {
 		return "전광석화";
 	}
+
+//	@Override
+//	public String toString() {
+//		return "Pikachu [energy=" + energy + ", type=" + type + ", item=" + item + "]";
+//	}
+	
 	
 }
 

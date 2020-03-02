@@ -2,7 +2,7 @@ package chap02.inheritance;
 
 public class jiwoo {
 	public static void main(String[] args) {
-		Pickachu pickachu = new Pickachu();
+		Pikachu pickachu = new Pikachu();
 		System.out.println("########## 피카츄 ##########");
 		System.out.println("에너지 : " + pickachu.energy);
 		System.out.println("타입 : " + pickachu.type);
@@ -11,7 +11,7 @@ public class jiwoo {
 		
 		System.out.println();
 		
-		Pickachu pickachu20 = new Pickachu(150, "adv");
+		Pikachu pickachu20 = new Pikachu(150, "adv");
 		System.out.println("########## 피카츄(LV.20) ##########");
 		System.out.println("에너지 : " + pickachu20.energy);
 		System.out.println("타입 : " + pickachu20.type);
@@ -27,7 +27,6 @@ public class jiwoo {
 		System.out.println("타입 : " + raichu.type);
 		System.out.println("공격 A : " + raichu.aAttack());
 		System.out.println("공격 B : " + raichu.bAttack());
-		
 		System.out.println();
 		
 		Raichu raichu40 = new Raichu(400, "megathunder");

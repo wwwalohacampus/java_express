@@ -1,6 +1,6 @@
 package chap02.inheritance;
 
-public class Raichu extends Pickachu {
+public class Raichu extends Pikachu {
 	
 	public Raichu() {
 		super();

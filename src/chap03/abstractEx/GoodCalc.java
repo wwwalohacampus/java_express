@@ -11,10 +11,6 @@ public class GoodCalc extends Calculator {
 	@Override
 	public int substract(int a, int b) {
 		int sum = a - b;
-//		if( a > b )
-//			sum = a - b;
-//		else
-//			sum = b - a;
 		return sum;
 	}
 

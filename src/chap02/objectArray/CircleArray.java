@@ -2,7 +2,7 @@ package chap02.objectArray;
 
 /*
  	반지름이 0~4인 Circle 객체 5개를 가지는 배열을 생성하고,
- 	배열에 있는 모든 Circle의 객체의 면적(넓이)를 출력하시오.
+ 	배열요소에 있는 모든  Circle 객체의 면적(넓이)를 출력하시오.
  */
 class Circle {
 	// 변수 		: 반지름
@@ -31,7 +31,7 @@ public class CircleArray {
 		}
 		
 		for (Circle circle : c) {
-			System.out.print( (int)(circle.getArea()) + " " );
+			System.out.print( (int)(circle.getArea()) + " " );  		// circle == c[i]
 		}
 		
 		

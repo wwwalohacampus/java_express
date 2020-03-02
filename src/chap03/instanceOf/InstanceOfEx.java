@@ -6,6 +6,7 @@ class Researcher extends Person {}
 class Professor extends Researcher {}
 
 public class InstanceOfEx {
+	
 	static void print(Person p) {
 		if(p instanceof Person) {
 			System.out.print("Person ");

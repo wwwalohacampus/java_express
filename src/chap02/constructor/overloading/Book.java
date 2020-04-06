@@ -5,7 +5,7 @@ public class Book {
 	String author;
 	
 	// 생성자
-	// * 생성자의 목적은 개체가 생성될 때, 필요한 초기화 작업을 하기 위함이다.
+	// * 생성자의 목적은 객체가 생성될 때, 필요한 초기화 작업을 하기 위함이다.
 	public Book(String title) {
 		this.title = title;
 		author = "작자미상";

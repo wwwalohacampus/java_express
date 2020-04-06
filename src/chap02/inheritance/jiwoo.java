@@ -20,7 +20,6 @@ public class jiwoo {
 		
 		System.out.println();
 		
-		
 		Raichu raichu = new Raichu();
 		System.out.println("########## 라이츄 ##########");
 		System.out.println("에너지 : " + raichu.energy);

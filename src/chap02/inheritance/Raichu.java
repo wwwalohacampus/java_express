@@ -1,7 +1,7 @@
 package chap02.inheritance;
 
 public class Raichu extends Pikachu {
-	
+
 	public Raichu() {
 		super();
 	}
@@ -13,7 +13,7 @@ public class Raichu extends Pikachu {
 	public Raichu(int energy, String type, String item) {
 		super(energy, type, item);
 	}
-
+	
 	// 메소드 오버라이딩
 	public String aAttack() {
 		return "백만볼트";
@@ -23,8 +23,5 @@ public class Raichu extends Pikachu {
 		return "볼트체인지";
 	}
 	
-	
-	
-	
-	
 }
+

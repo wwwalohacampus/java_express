@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  	책 제목과 저자를 담을 변수를 갖는 Book 클래스를 객체 배열로 만들고,
  	사용자로부터 책의 제목과 저자를 입력받아 배열을 완성하시오.
- */
+ */  
 
 class Book {
 	String title, author;
@@ -19,10 +19,12 @@ class Book {
 		this.author = author;
 	}
 
+	
 	@Override
 	public String toString() {
 		return "Book [title=" + title + ", author=" + author + "]";
 	}
+	
 	
 }
 

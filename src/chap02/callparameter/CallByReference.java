@@ -3,6 +3,7 @@ package chap02.callparameter;
 import chap02.inheritance.Pikachu;
 
 public class CallByReference {
+	
 	public static void  getArr(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = (i+1) * 10;
@@ -28,6 +29,7 @@ public class CallByReference {
 	}
 	
 	public static void main(String[] args) {
+		
 		int[] arr = new int[5];
 		Pikachu pikachu = new Pikachu();
 		pikachu.energy = 100;

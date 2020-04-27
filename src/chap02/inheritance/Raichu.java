@@ -13,15 +13,23 @@ public class Raichu extends Pikachu {
 	public Raichu(int energy, String type, String item) {
 		super(energy, type, item);
 	}
-	
-	// 메소드 오버라이딩
+
+	@Override
 	public String aAttack() {
 		return "백만볼트";
 	}
-	
+
+	@Override
 	public String bAttack() {
 		return "볼트체인지";
 	}
 	
 }
+
+
+
+
+
+
+
 

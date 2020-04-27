@@ -1,0 +1,19 @@
+
+* 주요 패키지
+	: JDK 패키지 중 주요한 패키지들
+	
+	- java.lang
+		: System 을 비롯하여 문자열, 수학 함수, 입출력 등과 같이 자바 프로그래밍에 필요한 기본적인 클래스와 인터페이스를 제공한다.
+		  이 패키지의 클래스들은 특별히 import 문을 사용하지 않아도 자동으로 임포트된다.
+		  
+	- java.util
+		: 날짜, 시간, 벡터, 해시맵 등 다양한 유틸리티 클래스와 인터페이스를 제공한다.
+		
+	- java.io
+		: 키보드, 모니터, 프린터, 파일 등에 입출력 하는 클래스와 인터페이스를 제공한다.
+		
+	- java.awt 와 javax.swing
+		: 자바 AWT(Abstract Windowing Toolkit) 와 swing 패키지로서 GUI 프로그래밍에 필요한 클래스와 인터페이스를 제공한다.
+		
+	- 자바 API
+		https://docs.oracle.com/javase/8/docs/api/

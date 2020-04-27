@@ -26,6 +26,7 @@ public class jiwoo {
 		System.out.println("타입 : " + raichu.type);
 		System.out.println("공격 A : " + raichu.aAttack());
 		System.out.println("공격 B : " + raichu.bAttack());
+		
 		System.out.println();
 		
 		Raichu raichu40 = new Raichu(400, "megathunder");

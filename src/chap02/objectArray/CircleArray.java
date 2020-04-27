@@ -34,7 +34,6 @@ public class CircleArray {
 			System.out.print( (int)(circle.getArea()) + " " );  		// circle == c[i]
 		}
 		
-		
 	}
 }
 

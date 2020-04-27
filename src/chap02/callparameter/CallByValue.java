@@ -2,7 +2,7 @@ package chap02.callparameter;
 
 public class CallByValue {
 	public static int sum(int a, int b) {
-		a = 100;
+		a = 100;  
 		b = 200;
 		System.out.println("***** sum 메소드 *****");
 		System.out.println(" (a,b) : (" + a + "," + b + ")" );
